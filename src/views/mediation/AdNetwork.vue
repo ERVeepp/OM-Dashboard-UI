@@ -114,10 +114,6 @@ export default {
       form: this.$form.createForm(this),
       columns: [
         {
-          title: 'ID',
-          dataIndex: 'id'
-        },
-        {
           title: 'Ad Network',
           dataIndex: 'className',
           // fixed: 'left',

@@ -123,7 +123,6 @@
     <om-form label="appID" :fill="false" :edit="canEdit" field="adnAppKey" />
   </div>
   <div v-else >
-    else
     <om-form label="adnAppKey" :fill="false" :edit="canEdit" field="adnAppKey" />
     <om-form label="apiKey" :fill="false" :edit="canEdit" field="apiKey" />
     <om-form label="clientId" :fill="false" :edit="canEdit" field="clientId" />
